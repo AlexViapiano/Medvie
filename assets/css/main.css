@@ -2819,7 +2819,7 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background: rgb(14,179,19);
-			background: linear-gradient(45deg, rgba(14,179,19,1) 9%, rgba(0,255,162,1) 40%, rgba(13,138,17,0.5) 88%);
+			background: linear-gradient(45deg, rgb(116,170,218) 9%, rgb(73,158,234) 40%, rgb(117,171,219) 88%);
 			color: #FFFFFF;
 		}
 
@@ -2983,7 +2983,7 @@ input, select, textarea {
 
 		.wrapper.style3 {
 			background: rgb(14,179,19);
-			background: linear-gradient(40deg, rgba(14,179,19,0.5) 13%, rgba(0,255,162,1) 48%, rgba(13,138,17,1) 96%);			
+			background: linear-gradient(45deg, rgb(116,170,218) 9%, rgb(73,158,234) 40%, rgb(117,171,219) 88%);			
 			color: #d3d4e4;
 		}
 
@@ -3366,7 +3366,7 @@ input, select, textarea {
 		width: 20em;
 		z-index: 10002;
 
-		background: linear-gradient(45deg, rgba(14,179,19,1) 9%, rgba(0,255,162,1) 40%, rgba(13,138,17,1) 88%);
+		background: linear-gradient(45deg, rgb(116,170,218) 9%, rgb(73,158,234) 40%, rgb(117,171,219) 88%);;
 	}
 
 		#menu ul {
@@ -3896,7 +3896,7 @@ input, select, textarea {
 	}
 
 		#footer .icons {
-			font-size: 1.25em;
+			font-size: 1.75em;
 		}
 
 			#footer .icons a {
