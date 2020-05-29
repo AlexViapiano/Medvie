@@ -2215,7 +2215,7 @@ input, select, textarea {
 		}
 
 			ul.actions.stacked li {
-				padding: 1em 0 0 0;
+				padding: 1.5em 1em 1em 0;
 			}
 
 				ul.actions.stacked li:first-child {
@@ -4006,3 +4006,4 @@ input, select, textarea {
 	.fas {
 		padding: 0px 50px 0px 50px;
 	}
+
