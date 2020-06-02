@@ -163,7 +163,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #fff;
+		color:white;
 		font-weight: 800;
 		letter-spacing: 0.225em;
 		line-height: 1em;
@@ -3450,7 +3450,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: #d6cece;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3509,13 +3509,32 @@ input, select, textarea {
 
 					#header nav > ul > li > a {
 						border: 0;
-						color: #fff;
+						color: grey;
 						display: block;
 						font-size: 0.8em;
 						letter-spacing: 0.225em;
 						padding: 0 1.5em;
 						text-transform: uppercase;
+						hover: 
 					}
+
+					div.menutoggle {
+						background-color: #333;
+						overflow: auto;
+						white-space: nowrap;
+					  }
+					  
+					  div.menutoggle a {
+						display: inline-block;
+						color: white;
+						text-align: center;
+						padding: 14px;
+						text-decoration: none;
+					  }
+					  
+					  div.menutoggle a:hover {
+						background-color: #777;
+					  }
 
 						#header nav > ul > li > a.menuToggle {
 							outline: 0;
@@ -3891,7 +3910,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 4em 0 ;
-		background-color: #1d242a;
+		background-color: #d6cece;
 		text-align: center;
 	}
 
