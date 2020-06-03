@@ -3670,4 +3670,52 @@ input, select, textarea {
 	.safari .video-banner {
 		display: none !important;
 	}
-	
+
+/* Product Page */
+
+	.product-page h1 {
+		margin: 60px;
+	}
+
+	.products {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.product {
+		border: 0.5px solid #eee;
+		margin: 35px;
+		border-radius: 25px;
+		max-width: 325px;
+		min-height: 400px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.productDescriptionContainer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;	
+		padding: 20px;
+		margin: 0;
+	}
+
+	.productDescriptionContainer h2 {
+		text-align: center;
+	}
+
+	.product .image {
+		margin: 0px;
+		top: 0px;
+	}
+
+	.product .image img {
+		max-width: 100%;
+		height: auto;
+	}
+
+
