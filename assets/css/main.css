@@ -174,7 +174,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2256,7 +2256,7 @@ input, select, textarea {
 			-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 			-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-			background-color: #ae9407;
+			background: linear-gradient(321deg, rgb(116, 128, 146) 9%, rgb(41, 66, 86) 90%);;
 			border-radius: 100%;
 			color: #ffffff;
 			display: inline-block;
@@ -2312,7 +2312,7 @@ input, select, textarea {
 		}
 
 		.icon.alt.fa-instagram:before {
-			background-color: #82acdb;
+			background: linear-gradient(302deg, rgb(96, 150, 202) 14%, #b4b9bd 100%);
 		}
 
 		.icon.alt.fa-instagram:hover:before {
@@ -2607,7 +2607,7 @@ input, select, textarea {
 
 		section header > :first-child, article header > :first-child {
 			display: inline-block;
-			border-bottom: solid 2px;
+			border-bottom: none;
 			margin-bottom: 0.5em;
 			padding-bottom: 0.5em;
 		}
@@ -3062,11 +3062,10 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
 		border-bottom: solid 2px #eaeaea;
-		background: #ffffff;
+		background: #d6cece;
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
-		padding: 0 0 0 1.5em;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -3074,7 +3073,7 @@ input, select, textarea {
 	}
 
 		#header a {
-			color: inherit;
+			color: white;
 			font-size: 0.8em;
 			font-weight: 500;
 			letter-spacing: 0.25em;
@@ -3105,7 +3104,7 @@ input, select, textarea {
 
 				#header nav ul li a {
 					display: inline-block;
-					padding: 0 1.5em 0 1.5em;
+					padding: 0 1em 0 1em;
 					position: relative;
 				}
 
@@ -3719,3 +3718,11 @@ input, select, textarea {
 	}
 
 
+		
+	@media screen and (max-width: 736px) {
+
+		.companyName {
+			display: none !important;
+		}
+
+	}
