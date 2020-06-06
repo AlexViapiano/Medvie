@@ -1928,7 +1928,8 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			box-shadow: none;
-			background-color: #7bd2ed;
+			background: rgb(201,209,227);
+background: linear-gradient(302deg, rgba(201,209,227,1) 15%, rgba(35,65,141,1) 50%, rgba(201,209,227,1) 89%);
 			color: #ffffff !important;
 		}
 
@@ -3149,7 +3150,8 @@ input, select, textarea {
 			}
 
 				#header nav ul li a {
-					padding: 0 0.75em 0 0.75em;
+					padding: 0 0.5em 0 0.5em;
+					font-size: 10px;
 				}
 
 					#header nav ul li a[href="#menu"] {
@@ -3605,7 +3607,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 5em 0 3em 0 ;
-		background-color: #d6cece;
+		background-color: #eaeaea;
 		text-align: center;
 	}
 
@@ -3683,7 +3685,7 @@ input, select, textarea {
 	}
 
 	.product {
-		border: 0.5px solid #eee;
+		border: 0.5px solid #D4AF37;
 		margin: 35px;
 		border-radius: 25px;
 		max-width: 325px;
