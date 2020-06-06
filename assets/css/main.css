@@ -3524,7 +3524,7 @@ input, select, textarea {
 			transition-delay: 1.25s;
 			content: '';
 			display: block;
-			background-color: #333333;
+			background-color: none;
 			height: 100%;
 			left: 0;
 			opacity: 0.45;
@@ -3538,7 +3538,7 @@ input, select, textarea {
 
 			#banner {
 				padding: 6em 2em 2em 2em ;
-				min-height: 0;
+				/* min-height: 0; */
 			}
 
 				#banner .inner {
