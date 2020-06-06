@@ -3694,6 +3694,8 @@ background: linear-gradient(302deg, rgba(201,209,227,1) 15%, rgba(35,65,141,1) 5
 		justify-content: space-around;
 		align-items: center;
 		flex-direction: column;
+		max-width: 300px;
+		width: 300px;
 	}
 
 	.productDescriptionContainer {
