@@ -1940,6 +1940,8 @@ input, select, textarea {
 			.button.primary:hover {
 				background-color: #65caea;
 				color: #d4af37 !important;
+				transform: scale(1.05);
+				border-radius: 15px;
 			}
 
 			input[type="submit"].primary:active,
@@ -3361,7 +3363,7 @@ input, select, textarea {
 			#banner .button.primary {
 				box-shadow: none;
 				background-color: #ffffff;
-				color: #333333 !important;
+				color: #FFF !important;
 			}
 
 				#banner input[type="submit"].primary:hover,
@@ -3370,7 +3372,9 @@ input, select, textarea {
 				#banner button.primary:hover,
 				#banner .button.primary:hover {
 					background-color: #65caea;
-					color: #ffffff !important;
+					color: #d4af37 !important;
+					transform: scale(1.05);
+					border-radius: 15px;
 				}
 
 				#banner input[type="submit"].primary:active,
@@ -3519,17 +3523,17 @@ input, select, textarea {
 		}
 
 		#banner:before {
-			-moz-transition: opacity 3s ease;
-			-webkit-transition: opacity 3s ease;
-			-ms-transition: opacity 3s ease;
-			transition: opacity 3s ease;
-			-moz-transition-delay: 1.25s;
-			-webkit-transition-delay: 1.25s;
-			-ms-transition-delay: 1.25s;
-			transition-delay: 1.25s;
+			-moz-transition: opacity 200s ease;
+			-webkit-transition: opacity 200s ease;
+			-ms-transition: opacity 200s ease;
+			transition: opacity 200s ease;
+			-moz-transition-delay: 150s;
+			-webkit-transition-delay: 150s;
+			-ms-transition-delay: 150s;
+			transition-delay: 150s;
 			content: '';
 			display: block;
-			background-color: none;
+			background: linear-gradient(302deg, #ffffff 0%, rgba(35, 65, 141, 0.74) 100%);
 			height: 100%;
 			left: 0;
 			opacity: 0.45;
@@ -3692,7 +3696,7 @@ input, select, textarea {
 	.product {
 		border: 0.5px solid #D4AF37;
 		margin: 35px;
-		border-radius: 25px;
+		border-radius: 10px;
 		max-width: 325px;
 		min-height: 400px;
 		display: flex;
@@ -3701,6 +3705,12 @@ input, select, textarea {
 		flex-direction: column;
 		max-width: 300px;
 		width: 300px;
+		box-shadow: 5px 10px #d4ce891f;
+	}
+
+	.product:hover {
+		transform: scale(1.05);
+		border-radius: 15px;	
 	}
 
 	.productDescriptionContainer {
@@ -3728,7 +3738,7 @@ input, select, textarea {
 
 
 		
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 550px) {
 
 		.companyName {
 			display: none !important;
@@ -3736,24 +3746,22 @@ input, select, textarea {
 
 	}
 
-	.content {
-		position: relative;
-		width: 500px;
-		margin: 0 auto;
-		padding: 20px;
-	  }
-	  .content video {
-		width: 100%;
-		display: block;
-	  }
-	  .content:before {
-		content: '';
-		position: absolute;
-		background: rgba(0, 0, 0, 0.5);
-		border-radius: 5px;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
+	.fa-plus-square {
+		background: -webkit-linear-gradient(#6096ca, #eee);
+
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 	}
-	  
+
+	.fa-heartbeat {
+		background: -webkit-linear-gradient(#eee, #294256);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	.fa-user-md {
+		background: -webkit-linear-gradient(#6096ca, #eee);
+
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
