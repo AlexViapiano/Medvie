@@ -3533,7 +3533,7 @@ input, select, textarea {
 			transition-delay: 150s;
 			content: '';
 			display: block;
-			background: linear-gradient(302deg, #ffffff 0%, rgba(35, 65, 141, 0.74) 100%);
+			background: linear-gradient(302deg, #ffffff 0%, rgba(35, 65, 141, 0.50) 100%);
 			height: 100%;
 			left: 0;
 			opacity: 0.45;
